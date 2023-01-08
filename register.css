@@ -1,0 +1,88 @@
+body{
+	margin: 0 auto;
+	background-image: url("../image/technology.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+	
+}
+
+.container{
+	flex-wrap: wrap;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(120deg,red,rgb(166, 0, 255));
+	height: 60%;
+	max-width: 90%;
+	
+}
+
+
+input[type="text"],input[type="password"]{
+	display: flex;
+	margin-top: 30px;
+	height: 45px;
+	width: 50%;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: rgb(250, 240, 240);
+	padding-left: 30px;
+	border-radius: 50px;
+	transition: 0.7s;
+}
+input[type="text"]:hover,input[type="password"]:hover{
+	width:52%;
+	font-size: x-large;
+}
+.submit{
+	background: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	width: 10%;
+	height: 40px;
+	font-size: 150%;
+	text-align: center;
+	border-radius: 25px;
+	font-weight: 70;
+	transition: 0.9s;
+	background: rgb(61, 61, 244);
+	color:white;
+	cursor: pointer;
+}
+.submit:hover{
+	background: rgb(13, 0, 193);
+	color:rgb(180, 180, 180);
+	width:11%;
+	font-size: x-large;
+}
+.logintext{
+	text-align: center;
+	font-size: 600%;
+	font-weight: 1000;
+	text-decoration: underline;
+	font-family: Impact;
+}
+.loginpage{
+	height: 900px;
+	width: 100%;
+	padding-left: 5%;
+	padding-top: 25%;
+	background: linear-gradient(150deg,black,rgb(251, 246, 246));
+
+}
+.register{
+	text-align: right;
+	width: 90%;
+}
+.REGISTER{
+	color: rgb(191, 255, 0);
+	text-decoration: underline;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.REGISTER:hover{
+	color: black;
+	text-decoration: underline;
+}
