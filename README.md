@@ -1,2 +1,6 @@
 # dbms-project
-this is a simple login page which stores data in database with the help of php 
+This project demonstrates the registration on a webpage and login/logout on the page
+languages used
+.html
+.css
+.php
